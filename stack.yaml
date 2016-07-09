@@ -3,7 +3,7 @@ resolver: nightly-2016-07-07
 packages:
   - '.'
   - location:
-      git: git@github.com:soenkehahn/http-client
+      git: https://github.com/soenkehahn/http-client
       commit: 11a9a62
     subdirs:
       - http-client
