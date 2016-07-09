@@ -1,0 +1,28 @@
+name: wai-redirect
+version: "0.1"
+
+dependencies:
+      - base
+      - string-conversions
+      - http-types
+      - network-uri
+      - wai
+      - safe
+
+tests:
+  spec:
+    main: Spec.hs
+    source-dirs:
+      - test
+      - src
+    dependencies:
+      - hspec
+      - bytestring
+      - blaze-builder
+      - text
+      - http-client
+      - warp
+
+library:
+  source-dirs:
+    - src
